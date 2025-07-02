@@ -49,3 +49,7 @@ for i, doc in enumerate(results_admission, 1):
     print("📄 문장 내용:", doc.page_content)
     print("📎 메타데이터:", doc.metadata)
     print("-" * 70)
+
+'''
+추가로 구현해야할점: 사례 유사도 기반 대학 전형중 유사도를 찾는게 중요해 보임, 여기서 대학별 vertorDB를 구축해 놓는것도 좋아보임
+'''
